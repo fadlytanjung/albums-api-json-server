@@ -130,6 +130,6 @@ server.use(router);
 
 
 
-server.listen(3030, () => {
+server.listen(process.env.PORT || 3030, () => {
   console.log("Run Auth API Server");
 });
