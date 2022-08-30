@@ -1,0 +1,66 @@
+{
+  "photos": [
+    {
+      "id": 1,
+      "title": "Leon Jungkok",
+      "description": "Leon Jungkok Lazy",
+      "url": "https://albums-api-strapi.herokuapp.com/uploads/Whats_App_Image_2022_08_10_at_11_29_14_PM_3dc65c61e3.jpeg"
+    },
+    {
+      "id": 2,
+      "title": "Leon Jungkok 2",
+      "description": "Leon Jungkok Lazy 2",
+      "url": "https://albums-api-strapi.herokuapp.com/uploads/Whats_App_Image_2022_08_10_at_11_29_14_PM_3dc65c61e3.jpeg"
+    },
+    {
+      "id": 3,
+      "title": "Leon Jungkok 3",
+      "description": "Leon Jungkok Lazy 3",
+      "url": "https://albums-api-strapi.herokuapp.com/uploads/Whats_App_Image_2022_08_10_at_11_29_14_PM_3dc65c61e3.jpeg"
+    },
+    {
+      "id": 4,
+      "title": "Leon Jungkok 4",
+      "description": "Leon Jungkok Lazy 4",
+      "url": "https://albums-api-strapi.herokuapp.com/uploads/Whats_App_Image_2022_08_10_at_11_29_14_PM_3dc65c61e3.jpeg"
+    },
+    {
+      "id": 5,
+      "title": "Leon Jungkok 5",
+      "description": "Leon Jungkok Lazy 5",
+      "url": "https://albums-api-strapi.herokuapp.com/uploads/Whats_App_Image_2022_08_10_at_11_29_14_PM_3dc65c61e3.jpeg"
+    }
+  ],
+  "albums": [
+    {
+      "id": 1,
+      "title": "Leon",
+      "cover": "https://albums-api-strapi.herokuapp.com/uploads/Whats_App_Image_2022_08_10_at_11_29_14_PM_3dc65c61e3.jpeg",
+      "photos": [
+        1,
+        2,
+        3
+      ],
+      "apiId": "v1"
+    },
+    {
+      "title": "Album Telkom Gallery",
+      "description": "This is telkom Gallery's",
+      "photos": [
+        4
+      ],
+      "apiId": "v1",
+      "id": 2
+    },
+    {
+      "title": "Album Leon",
+      "description": "This is Leon Gallery's",
+      "photos": [
+        1,
+        2
+      ],
+      "apiId": "v1",
+      "id": 3
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "photo-gallery-api",
+  "version": "1.0.0",
+  "description": "Photo gallery api using json-server",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon --experimental-specifier-resolution=node src/server.js",
+    "dev": "json-server --watch ./db/database.json"
+  },
+  "author": "Fadly Tanjung",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "json-server": "^0.17.0",
+    "jsonwebtoken": "^8.5.1",
+    "prettier": "^2.7.1",
+    "uuid": "^8.3.2"
+  }
+}
