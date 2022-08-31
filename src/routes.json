@@ -1,6 +1,6 @@
 {
-  "/api/v1/photos/:id": "/photos/:id",
   "/api/v1/photos": "/photos",
+  "/api/v1/photos/:id": "/photos/:id",
   "/api/v1/albums": "/albums",
   "/api/v1/albums/:id": "/albums/:id"
 }

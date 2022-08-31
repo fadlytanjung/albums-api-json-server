@@ -6,8 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx nodemon --experimental-specifier-resolution=node src/server.js",
-    "dev": "json-server --watch ./db/database.json"
+    "start": "npx nodemon --experimental-specifier-resolution=node ./src/server.js",
+    "dev": "json-server --routes ./src/routes.json --watch ./db/database.json -p 3030"
   },
   "author": "Fadly Tanjung",
   "license": "ISC",

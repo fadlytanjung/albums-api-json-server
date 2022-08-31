@@ -1,0 +1,23 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "/api/v1/photos": "/photos",
+  "/api/v1/photos/:id": "/photos/:id",
+  "/api/v1/albums": "/albums",
+  "/api/v1/albums/:id": "/albums/:id"
+}
